@@ -1,0 +1,1 @@
+Sitemap: https://dar4rackspace.github.io/quarto-docs-rackspace-template/sitemap.xml

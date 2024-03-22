@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Quarto Rackspace Template 4 Documentation"
+  favicon: "images/r-Icon-White-Square.png"
+  back-to-top-navigation: true
+  search: true
+  page-footer: 
+    left: "Rackspace 2024" 
+    right: 
+      - icon: github
+        href: https://github.com/
+      - icon: google 
+        href: https://google.com/
+        
+  navbar:
+    logo: "images/Rackspace_Technology_Logo_RGB_RED.png"
+    background: "#003482"
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+  
+
+format:
+  html:
+    theme: cyborg
+    css: styles.css
+    toc: true
+    toc-location: right
+    smooth-scroll: true
+    message: false
+    warning: false
+    mermaid:
+      theme: default
+
+
+
